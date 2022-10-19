@@ -1,2 +1,2 @@
 # pipegene-services
-Repo to organize services of PipeGene IC project
+**Repo to organize services of PipeGene IC project**
