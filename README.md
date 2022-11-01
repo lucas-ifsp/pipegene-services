@@ -1,9 +1,9 @@
-<h1 align="center"> pipegene-services</h1><br>
+<h1 align="center"> Pipegene Services</h1><br>
 
 **Repo to organize services of PipeGene IC project** <br>
 
-Este projeto de iniciação Científica é uma continuação de um projeto relizado em frontend e backend de uma plataforma que tem por objetivo realizar análise de datasets da área da saúde. <br>
-Neste trabalho pipelines foram desenvolvidas para integrar o front e backend com finalidade de processar volumosos datasets para gerar insigths. Com os serviços aqui descritos, é possível prover análises de mutações em genes de qualquer variação de câncer.
+**Este projeto de iniciação Científica é uma continuação de um projeto relizado em frontend e backend de uma plataforma que tem por objetivo realizar análise de datasets da área da saúde.** <br><br>
+Neste trabalho pipelines foram desenvolvidas para integrar o front e backend com finalidade de processar grandes conjuntos de dados para gerar insigths. Com os serviços aqui descritos, é possível prover análises de mutações em genes de qualquer variação de câncer.
 
 
 O projeto foi realizado em três partes até o momento:
