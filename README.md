@@ -14,7 +14,7 @@ O projeto foi realizado em três partes até o momento:
 
  ---
 
-<h2 align="center"> Serviços e pipelines que compõe a PipeGene</h2><br>
+<h2 align="center"> Serviços e pipelines que compõem a PipeGene</h2><br>
 <table align="center">
   <tr>
     <th> Serviços </th>
