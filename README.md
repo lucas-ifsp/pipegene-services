@@ -1,7 +1,9 @@
 
 [PT](#pt)
 [EN](#en)
+
 <h1 align="center"> Pipegene Services</h1><br>
+
 ### PT <br>
 
 
@@ -16,10 +18,16 @@ O projeto foi realizado em três partes até o momento:
 - [FrontEnd](https://github.com/LucasGTeixeira/pipegene-frontend)
 - [Serviços e Pipelines](https://github.com/lucas-ifsp/pipegene-services)
 <br>
+ 
+ --- 
 
- ---
 
 <h2 align="center"> Serviços e pipelines que compõem a PipeGene</h2><br>
+
+Os serviços que compõem a PipeGene estão todos na tabela abaixo. Cada qual tem seu ID; descrição do que o seviço realizado; tipo, seja Pump, Filter ou Sink; a entrada que pode ser TSV ou json; sua saída, png ou CSV e o próximo serviço que será usado na sequência para finalizar uma pipeline.
+
+
+<h3 align="center"> Tabela de serviços que compõem a PipeGene</h3><br>
 <table align="center">
   <tr>
     <th>ID</th>
@@ -119,7 +127,42 @@ O projeto foi realizado em três partes até o momento:
   </tr> 
 </table>
 
+A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços acima descritos. A primeira tabela temos as pipelines e suas descrições, a segunda temos um overview de como cada serviço pode ser usado em cada pipeline.
+
 <h2 align="center">  Overview de serviços a sua reutilizações em diferentes pipelines </h2>
+
+
+<table align="center">
+  <tr>
+    <th>Pipeline</th>
+    <th> Descrição </th>
+  </tr>
+  <tr>
+  <td> PA </td>
+   <td> Gera gráfico com a classificação de variantes </td>
+  </tr>
+ 
+  <tr>
+  <td> PB </td>
+   <td> Gera gráfico com os tipos de variantes  </td>
+  </tr>
+ 
+  <tr>
+  <td> PC </td>
+   <td> Gera gráfico de incidência de mutações </td>
+  </tr>
+ 
+  <tr>
+  <td> PD </td>
+   <td> Gera gráfico das top-10 mutações </td>
+  </tr>
+ 
+  <tr>
+  <td> PE </td>
+   <td> Gera CSV com dados originais e pré-processados </td>
+  </tr>
+
+</table>
 
 <table align="center">
  
@@ -247,38 +290,6 @@ O projeto foi realizado em três partes até o momento:
   
 </table>
 
-
-<table align="center">
-  <tr>
-    <th>Pipeline</th>
-    <th> Descrição </th>
-  </tr>
-  <tr>
-  <td> PA </td>
-   <td> Gera gráfico com a classificação de variantes </td>
-  </tr>
- 
-  <tr>
-  <td> PB </td>
-   <td> Gera gráfico com os tipos de variantes  </td>
-  </tr>
- 
-  <tr>
-  <td> PC </td>
-   <td> Gera gráfico de incidência de mutações </td>
-  </tr>
- 
-  <tr>
-  <td> PD </td>
-   <td> Gera gráfico das top-10 mutações </td>
-  </tr>
- 
-  <tr>
-  <td> PE </td>
-   <td> Gera CSV com dados originais e pré-processados </td>
-  </tr>
-
-</table>
 
     
 
