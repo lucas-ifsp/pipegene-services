@@ -32,96 +32,96 @@ O projeto foi realizado em três partes até o momento:
   <tr>
     <td> S1 </td>
     <td> Preprocess dataset </td>
-    <td> Pump </td>
+    <td> Filter </td>
     <td> TSV </td>
     <td> TSV </td>
-    <td> S2 </td>
+    <td> S2, S4, S6, S8, S10 </td>
   </tr>
    <tr>
     <td> S2 </td>
     <td> Compute gene incidence </td>
-    <td> Pump </td>
+    <td> Filter </td>
     <td> TSV </td>
     <td> TSV </td>
-    <td> S2 </td>
+    <td> S3 </td>
   </tr>
    <tr>
     <td> S3 </td>
     <td> Plot gene bar chart </td>
-    <td> Pump </td>
-    <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> Sink </td>
+    <td> json </td>
+    <td> png </td>
+    <td> - </td>
   </tr>
    <tr>
     <td> S4 </td>
     <td> Compute mutation incidence</td>
-    <td> Pump </td>
+    <td> Filter </td>
     <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> json </td>
+    <td> S5 </td>
   </tr>
    <tr>
     <td> S5 </td>
     <td> Plot mutation barchart snv </td>
-    <td> Pump </td>
-    <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> Sink </td>
+    <td> json </td>
+    <td> png </td>
+    <td> - </td>
   </tr>  
    <tr>
     <td> S6 </td>
     <td> Compute top ten mutation </td>
-    <td> Pump </td>
+    <td> Filter </td>
     <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> json </td>
+    <td> S7 </td>
   </tr>
    <tr>
     <td> S7 </td>
     <td> Plot composite bar chart </td>
-    <td> Pump </td>
-    <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> Sink </td>
+    <td> json </td>
+    <td> png </td>
+    <td> - </td>
   </tr>
     <tr>
     <td> S8 </td>
     <td> Compute mutation per patient <br> (with and without outliers) </td>
-    <td> Pump </td>
+    <td> Filter </td>
     <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> json </td>
+    <td> S9 </td>
   </tr>
     <tr>
     <td> S9 </td>
     <td> Plot histogram of mutations </td>
-    <td> Pump </td>
-    <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> Sink </td>
+    <td> json </td>
+    <td> png </td>
+    <td> - </td>
   </tr>
     <tr>
     <td> S10 </td>
     <td> Compute indicators from dataset  </td>
-    <td> Pump </td>
+    <td> Filter </td>
     <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> json </td>
+    <td> S11 </td>
   </tr>
     <tr>
     <td> S11 </td>
     <td> Create CSV with original and preprocess data </td>
-    <td> Pump </td>
-    <td> TSV </td>
-    <td> TSV </td>
-    <td> S2 </td>
+    <td> Sink </td>
+    <td> json </td>
+    <td> CSV </td>
+    <td> - </td>
   </tr> 
 </table>
 
 
 <table>
-<table>
+ 
   <tr>
     <th>Pipeline</th>
     <th> S1 </th>
@@ -150,6 +150,7 @@ O projeto foi realizado em três partes até o momento:
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
+   <td> ✓  </td>
   </tr>
     <tr>
    <td> Pipeline B </td>
@@ -164,6 +165,7 @@ O projeto foi realizado em três partes até o momento:
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
+     <td> ✓  </td>
   </tr>
     <tr>
    <td> Pipeline C </td>
@@ -178,6 +180,7 @@ O projeto foi realizado em três partes até o momento:
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
+     <td> ✓  </td>
   </tr>
     <tr>
    <td> Pipeline D </td>
@@ -192,6 +195,7 @@ O projeto foi realizado em três partes até o momento:
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
+     <td> ✓  </td>
   </tr>
     <tr>
    <td> Pipeline E </td>
@@ -206,6 +210,7 @@ O projeto foi realizado em três partes até o momento:
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
+     <td> ✓  </td>
   </tr>
     <tr>
    <td> Pipeline F </td>
@@ -220,6 +225,7 @@ O projeto foi realizado em três partes até o momento:
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
+     <td> ✓  </td>
   </tr>
     <tr>
    <td> Pipeline G </td>
@@ -234,6 +240,7 @@ O projeto foi realizado em três partes até o momento:
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
+     <td> ✓  </td>
   </tr>
   
 </table>
