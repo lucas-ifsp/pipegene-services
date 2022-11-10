@@ -119,8 +119,9 @@ O projeto foi realizado em três partes até o momento:
   </tr> 
 </table>
 
+<h2 align="center">  Overview de serviços a sua reutilizações em diferentes pipelines </h2>
 
-<table>
+<table align="center">
  
   <tr>
     <th>Pipeline</th>
@@ -129,105 +130,106 @@ O projeto foi realizado em três partes até o momento:
     <th> S3 </th>
     <th> S4 </th>
     <th> S5 </th>
-    <th> S6 </th
+    <th> S6 </th>
     <th> S7 </th>
     <th> S8 </th>
     <th> S9 </th>
     <th> S10 </th>
     <th> S11 </th>
     <th> S12 </th>
+   
   </tr>
   <tr>
    <td> Pipeline A </td>
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
   </tr>
     <tr>
    <td> Pipeline B </td>
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-     <td> ✓  </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>  </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
   </tr>
     <tr>
    <td> Pipeline C </td>
    <td> ✓  </td>
+   <td>   </td>
+   <td>   </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-     <td> ✓  </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
   </tr>
     <tr>
    <td> Pipeline D </td>
    <td> ✓  </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-     <td> ✓  </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
   </tr>
     <tr>
    <td> Pipeline E </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-     <td> ✓  </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
   </tr>
     <tr>
    <td> Pipeline F </td>
    <td> ✓  </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
+   <td>   </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-     <td> ✓  </td>
+   <td>   </td>
   </tr>
-    <tr>
+    <!-- <tr>
    <td> Pipeline G </td>
    <td> ✓  </td>
    <td> ✓  </td>
@@ -240,12 +242,13 @@ O projeto foi realizado em três partes até o momento:
    <td> ✓  </td>
    <td> ✓  </td>
    <td> ✓  </td>
-     <td> ✓  </td>
-  </tr>
+   <td> ✓  </td>
+  </tr> -->
   
 </table>
 
-<table>
+
+<table align="center">
   <tr>
     <th>Pipeline</th>
     <th> Descrição </th>
@@ -254,14 +257,29 @@ O projeto foi realizado em três partes até o momento:
   <td> PA </td>
    <td> Gera gráfico com a classificação de variantes </td>
   </tr>
+ 
+  <tr>
+  <td> PB </td>
+   <td> Gera gráfico com os tipos de variantes  </td>
+  </tr>
+ 
+  <tr>
+  <td> PC </td>
+   <td> Gera gráfico de incidência de mutações </td>
+  </tr>
+ 
+  <tr>
+  <td> PD </td>
+   <td> Gera gráfico das top-10 mutações </td>
+  </tr>
+ 
+  <tr>
+  <td> PE </td>
+   <td> Gera CSV com dados originais e pré-processados </td>
+  </tr>
 
 </table>
 
-PA - Gera gráfico com a classificação de variantes 
-PB - Gera gráfico com os tipos de variantes 
-PC - 
-PD -
-PE - 
     
 
  ---
@@ -270,12 +288,6 @@ PE -
 
 **Repo to organize services of PipeGene IC project** <br>
 <h2 align="center">  Overview de serviços a sua reutilizações em diferentes pipelines </h2>
-
-| Pipelines | Serviços |
-|-----------|----------|
-| A         |  1,2,3   | 
-| B         |  4,5,6   |
-| C         |  7,8,9   |
 
 
 
