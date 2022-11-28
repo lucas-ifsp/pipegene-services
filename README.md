@@ -37,13 +37,29 @@ Os serviços que compõem a PipeGene estão todos na tabela abaixo. Cada qual te
     <th>Saída</th>
     <th>Próximo</th>
   </tr>
+   <tr>
+    <td> S00 </td>
+    <td> Original and preprocess data </td>
+    <td> Filter </td>
+    <td> TSV </td>
+    <td> TSV </td>
+    <td> S8, S10 </td>
+  </tr>
+  <tr>
+    <td> S01 </td>
+    <td> Remove columns </td>
+    <td> Filter </td>
+    <td> TSV </td>
+    <td> TSV </td>
+    <td> S1, S2, S4, S6, S8, S10 </td>
+  </tr>
   <tr>
     <td> S1 </td>
     <td> Preprocess dataset </td>
     <td> Filter </td>
     <td> TSV </td>
     <td> TSV </td>
-    <td> S2, S4, S6, S8, S10 </td>
+    <td> S2, S4, S6 </td>
   </tr>
    <tr>
     <td> S2 </td>
@@ -162,6 +178,9 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
   <tr>
   <td> PE </td>
    <td> Gera CSV com dados originais e pré-processados </td>
+  </tr>
+  <td> PF </td>
+   <td> Gera png com dados originais e pré-processados </td>
   </tr>
 
 </table>
