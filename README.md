@@ -192,6 +192,8 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
  
   <tr>
     <th>Pipeline</th>
+    <th> S00 </th>
+    <th> S01 </th>
     <th> S1 </th>
     <th> S2 </th>
     <th> S3 </th>
@@ -203,16 +205,16 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
     <th> S9 </th>
     <th> S10 </th>
     <th> S11 </th>
-    <th> S12 </th>
    
   </tr>
   <tr>
    <td> Pipeline A </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
    <td>   </td>
-   <td>   </td>
+   <td> ✓  </td>
+   <td> ✓  </td>
+   <td> ✓  </td>
+   <td> ✓ </td>
+   <td>  </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
@@ -223,14 +225,15 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
   </tr>
     <tr>
    <td> Pipeline B </td>
+   <td>    </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td> ✓  </td>
+   <td> ✓ </td>
+   <td> ✓ </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
-   <td>  </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
@@ -238,12 +241,13 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
   </tr>
     <tr>
    <td> Pipeline C </td>
-   <td> ✓  </td>
+   <td>    </td>
+   <td> ✓ </td>
+   <td> ✓ </td>
    <td>   </td>
    <td>   </td>
+   <td> ✓ </td>
    <td> ✓  </td>
-   <td> ✓  </td>
-   <td>   </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
@@ -253,14 +257,15 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
   </tr>
     <tr>
    <td> Pipeline D </td>
-   <td> ✓  </td>
+   <td>   </td>
+   <td> ✓ </td>
+   <td> ✓ </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td>   </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
@@ -268,6 +273,8 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
   </tr>
     <tr>
    <td> Pipeline E </td>
+   <td> ✓ </td>
+   <td> ✓ </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
@@ -275,26 +282,27 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
    <td>   </td>
    <td>   </td>
    <td>   </td>
-   <td> ✓  </td>
-   <td> ✓  </td>
+   <td>  ✓ </td>
+   <td>  ✓ </td>
    <td>   </td>
    <td>   </td>
-   <td>   </td>
+   
   </tr>
     <tr>
    <td> Pipeline F </td>
    <td> ✓  </td>
+   <td> ✓ </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
+   <td>  </td>
    <td>   </td>
    <td>   </td>
    <td>   </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td>   </td>
   </tr>
     <!-- <tr>
    <td> Pipeline G </td>
@@ -471,12 +479,12 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
  
   <tr>
   <td> PD </td>
-   <td> Plot histogram of mutations  with top10 mutations </td>
+   <td> Create CSV with original and preprocess data </td>
   </tr>
  
   <tr>
   <td> PE </td>
-   <td> Create CSV with original and preprocess data </td>
+   <td> Plot histogram of mutations  with top10 mutations </td>
   </tr>
 
 </table>
@@ -537,7 +545,7 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
    <td> ✓  </td>
    <td>   </td>
    <td>   </td>
-   <td> ✓  </td>
+   <td>   </td>
    <td> ✓  </td>
    <td>   </td>
    <td>   </td>
@@ -573,7 +581,7 @@ A tabelas que seguem possuem as pipelines geradas pelo conjunto de serviços aci
    <td>   </td>
    <td> ✓  </td>
    <td> ✓  </td>
-   <td>   </td>
+   <td>  </td>
    <td>   </td>
    <td>   </td>
   </tr>
